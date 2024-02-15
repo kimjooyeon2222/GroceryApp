@@ -1,0 +1,102 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  min-height: calc(100vh - 40px);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.grocery-container {
+  flex: 2;
+  max-width: calc(66.66% - 20px);
+  padding: 20px;
+  text-align: left;
+}
+/* Chatbot Component Styling */
+.chatbot-container {
+  flex: 1;
+  padding: 20px;
+  border-left: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages-container {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  text-align: left;
+  color: black;
+}
+
+.sticky-button {
+  position: sticky;
+  bottom: 100px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-grocery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.add-grocery input[type="text"] {
+  flex-grow: 1;
+}
+
+.grocery-list {
+  list-style: none;
+  padding: 0;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.grocery-item button {
+  flex-shrink: 0;
+  width: 100px;
+  height: 60px;
+  margin-left: 10px;
+}
